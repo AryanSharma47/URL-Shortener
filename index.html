@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #link-button{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/shortURL" method="POST">
+        <label for="url">Enter your URL: </label>
+        <input type="url" name="url" placeholder="Enter your URL" />
+        <button type="submit">Shorten URL</button>
+    </form>
+    <button type="submit" id="link-button">Go To Link</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
